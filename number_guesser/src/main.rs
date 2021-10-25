@@ -7,15 +7,15 @@ use std::cmp::Ordering;
 use rand::Rng;              // From crates.io 
 
 fn main(){
-    println!("--------------------------------");
-    println!("--- NUMBER GUESSER, STARTED! ---"); // Any function that ends with a '!' is a macro
-    println!("--------------------------------");
+    println!("--------------------------------------");
+    println!("------ NUMBER GUESSER, STARTED! ------"); // Any function that ends with a '!' is a macro
+    println!("--------------------------------------");
     
     let secret_number = rand::thread_rng().gen_range(1..101); // 1 to 100 ([1, 101[ <-> (1..=100) )
     
     println!("Please enter your guess (between 1 - 100)");
 
-    loop{            
+    loop{
         
         let mut guess = String::new(); // Variables are immutable by default, so mut makes them mutable
 
