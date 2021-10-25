@@ -9,3 +9,8 @@ I just want to discover this "new" rising star in the embedded world, and throug
 <image src="images/first.png" width=640>
 
 > First code run !
+
+## How am I learning
+
+I am following this [book](https://doc.rust-lang.org/book/) that I found on the [Rust official website](https://www.rust-lang.org/learn).
+
