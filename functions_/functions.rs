@@ -7,7 +7,7 @@ fn main(){
 
 	println!("Sum of A: {}, and B: {} => A + B = {}", A, B, sum(A, B));
 
-	println!("Printing {}", print_88());
+	println!("Printing {}", return_88());
 
 	println!("Printing A: {} + 1 => {} ", A, print_var_plus_1(A));
 }
@@ -22,10 +22,11 @@ fn sum(a:u8, b:u8) -> u8{
 	a+b
 }
 
-fn print_88() -> u8{
+fn return_88() -> u8{
 	88
 }
 
+// Parameter of type (uint8_t), return type is (uint8_t)
 fn print_var_plus_1(var:u8) -> u8{
 	var + 1
 	// var + 1; WRONG !
